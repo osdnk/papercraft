@@ -1,0 +1,3 @@
+[submodule "rok-paper-sissors-estimator"]
+	path = estimator
+	url = git@github.com:russell-lai/rok-paper-sissors-estimator.git
