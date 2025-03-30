@@ -9,4 +9,4 @@ The codebase is an auxiliary material to the S&P 2025 work _Papercraft: Lattice-
 
 ### License
 
-Papercraft is licensed under the Apache 2.0 License. See [LICENSE](https://github.com/daryakaviani/ringtail/blob/main/LICENSE).
+Papercraft is licensed under the Apache 2.0 License. See [LICENSE](https://github.com/osdnk/papercraft/blob/main/LICENSE).
