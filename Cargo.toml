@@ -1,0 +1,58 @@
+[package]
+name = "vdf-implementation"
+version = "0.1.0"
+edition = "2021"
+default-run = "main"
+
+[[bin]]
+name = "vdf"
+path = "src/vdf_reference/main.rs"
+
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+
+[features]
+c1 = []
+c2 = []
+c3 = []
+b1 = []
+b2 = []
+b3 = []
+a0 = []
+a1 = []
+a2 = []
+a3 = []
+
+[dependencies]
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
+rand = "0.8.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha3 = "0.10"
+ndarray = {  version = "0.16.1", features=["rayon", "matrixmultiply-threading"]  }
+once_cell = "1.20.3"
+rug = "1.25.0"
+criterion = "0.5.1"
+rayon = "1.10.0"
+num = "0.4.3"
+fast-modulo = "0.4.0"
+chrono = "0.4.1"
+cfg-if = "1.0.0"
+num-modular = "0.6.1"
+lazy_static = "1.5.0"
+memoize = "0.5.1"
+
+[[bench]]
+name = "modular_reduction"
+harness = false
+
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
