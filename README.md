@@ -1,4 +1,4 @@
-# Ringtail
+# Papercraft
 
 This is a pure Rust implementation of Papercraft, a practical VDF from Lattice-based assumptions.
 
